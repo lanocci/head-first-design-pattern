@@ -1,8 +1,7 @@
 package duck
 
 class ModelDuck extends Duck {
-  val flyBehavior = new FlyNoWay()
-  val quackBehavior = new Quack()
-
+  this.flyBehavior = new FlyNoWay
+  this.quackBehavior = new MuteQuack
   def display: Unit = println("Model Duck")
 }

@@ -1,7 +1,7 @@
 package duck
 
 class MallardDuck extends Duck {
-  val flyBehavior: FlyBehavior = new FlyWithWings()
-  val quackBehavior: QuackBehavior = new Quack()
+  var flyBehavior = new FlyWithWings
+  var quackBehavior = new Quack
   val display: Unit = println("genuine mallard duck")
 }

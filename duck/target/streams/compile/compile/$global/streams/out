@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/lanocci/work/head-first-design-pattern/duck/src/main/scala/Duck.scala:16:29: ';' expected but '=' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    flyBehavior:FlyBehavior = fb[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/lanocci/work/head-first-design-pattern/duck/src/main/scala/Duck.scala:19:34: ';' expected but '=' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    quackBehavior: QuackBehavior = qb[0m
-[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

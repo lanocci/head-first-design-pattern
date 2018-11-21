@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/lanocci/work/head-first-design-pattern/duck/src/test/scala/DuckTest.scala:17:34: ';' expected but 'false' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    model.performFly() should be false[0m
-[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/lanocci/work/head-first-design-pattern/duck/src/test/scala/DuckTest.scala:21:34: ';' expected but 'true' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    model.performFly() should be true[0m
-[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
