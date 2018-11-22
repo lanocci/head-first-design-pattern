@@ -1,8 +1,8 @@
 package duck
 
 abstract class Duck{
-  var flyBehavior: FlyBehavior
-  var quackBehavior: QuackBehavior
+  def flyBehavior: FlyBehavior
+  def quackBehavior: QuackBehavior
 
   def display(): Unit
 
@@ -13,9 +13,9 @@ abstract class Duck{
   def swim(): Unit = println("all the ducks can float on water")
 
   def setFlyBehavior(fb: FlyBehavior): Unit = {
-    this.flyBehavior = fb
+    flyBehavior = fb
   }
   def setQuackBehavior(qb: QuackBehavior): Unit = {
-    this.quackBehavior = qb
+    quackBehavior = qb
   }
 }
