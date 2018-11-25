@@ -3,9 +3,9 @@ package weather
 import java.util.{Observable, Observer}
 
 class WeatherData extends Observable {
-  private var temparature: Float
-  private var humidity: Float
-  private var pressure: Float
+  private var temparature: Float = 0.0f
+  private var humidity: Float = 0.0f
+  private var pressure: Float = 0.0f
 
   def measurementChanged(): Unit = {
     setChanged()
